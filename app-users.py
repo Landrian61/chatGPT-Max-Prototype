@@ -7,6 +7,7 @@ import requests
 import json
 import streamlit as st
 import openai
+
 openai.api_key = "sk-XXX"
 openai.organization = "org-XXX"
 
@@ -190,4 +191,4 @@ if st.button('Generate'):
         st.success('Done!')
 
 
-#print(GenerateImages("child flying in the sky"))
+print(GenerateImages("child flying in the sky"))
